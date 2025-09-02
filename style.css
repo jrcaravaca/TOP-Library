@@ -1,0 +1,45 @@
+:root{
+    --blue-dark: #0d1b2a; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--blue-dark);
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.add-button-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-book {
+    padding: 10px 15px;
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.book-container {
+    display: flex;
+    justify-content: center;
+    align-tracks: center;
+    gap: 10px;
+}
+
+.book-card {
+    padding: 20px;
+    background-color: beige;
+}
