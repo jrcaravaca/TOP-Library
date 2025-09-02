@@ -40,6 +40,16 @@ header {
 }
 
 .book-card {
+    width: 300px;
     padding: 20px;
     background-color: beige;
+}
+
+.read-button, .remove-button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.read-button {
+    margin-right: 10px;
 }
